@@ -92,10 +92,6 @@ const createStyle = () => {
   return styleElement;
 };
 
-document.head.appendChild(createStyle());
-document.body.appendChild(createImageContainer());
-document.body.appendChild(createTextContainer());
-
 class WixDefaultCustomElement extends HTMLElement {
     constructor() {
       super();
